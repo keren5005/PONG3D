@@ -849,14 +849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: f399e052060a76f43aa9d8c4429afcae, type: 2}
-  blinkSpeed: 10
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &542680509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,14 +1119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: d3d3a21cd1e6e214db6033678e1b096e, type: 2}
-  blinkSpeed: 10
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &621907964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,14 +1875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: f399e052060a76f43aa9d8c4429afcae, type: 2}
-  blinkSpeed: 10
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &1454179642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,7 +1958,7 @@ GameObject:
   - component: {fileID: 1472874270}
   m_Layer: 0
   m_Name: BottomWall
-  m_TagString: Wall
+  m_TagString: BottomWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2085,14 +2061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: f399e052060a76f43aa9d8c4429afcae, type: 2}
-  blinkSpeed: 1
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &1559692487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,14 +2559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: d3d3a21cd1e6e214db6033678e1b096e, type: 2}
-  blinkSpeed: 10
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &1657626294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,7 +2628,7 @@ GameObject:
   - component: {fileID: 1695333366}
   m_Layer: 0
   m_Name: TopWall
-  m_TagString: Wall
+  m_TagString: TopWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2771,14 +2731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51f6d891ee8d5ac41b1f7869a246254a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallMaterial: {fileID: 2100000, guid: f399e052060a76f43aa9d8c4429afcae, type: 2}
-  blinkSpeed: 10
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isBlinking: 1
 --- !u!1 &2071919300
 GameObject:
   m_ObjectHideFlags: 0

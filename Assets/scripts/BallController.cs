@@ -53,12 +53,10 @@ public class BallController : MonoBehaviour
     {
         float currentSpeed = rb.velocity.magnitude;
 
-        // Ensure the ball's speed is not less than the minimum speed
         if (currentSpeed < minSpeed)
         {
             rb.velocity = rb.velocity.normalized * (minSpeed + 1f);  // Add a small buffer
         }
-        // Ensure the ball's speed does not exceed the maximum speed
         else if (currentSpeed > maxSpeed)
         {
             rb.velocity = rb.velocity.normalized * maxSpeed;
@@ -72,26 +70,21 @@ public class BallController : MonoBehaviour
 
     private IEnumerator SpeedBoost(float multiplier, float duration)
     {
-        // Multiply the ball's velocity to apply the speed boost
         rb.velocity *= multiplier;
 
-        // Wait for the duration of the speed boost effect
         yield return new WaitForSeconds(duration);
 
-        // Reset the ball's speed back to the original speed after the boost ends
         rb.velocity /= multiplier;
 
-        // Ensure the ball's speed stays within the allowed limits after the boost ends
         ClampBallSpeed();
     }
 
     public void TeleportBall(Vector2 teleportRangeX, Vector2 teleportRangeY)
     {
-        // Generate random X and Y positions within the specified range
+       
         float randomX = Random.Range(teleportRangeX.x, teleportRangeX.y);
         float randomY = Random.Range(teleportRangeY.x, teleportRangeY.y);
 
-        // Teleport the ball to the new random position inside the walls
         transform.position = new Vector3(randomX, randomY, 0);
 
         Debug.Log($"Ball teleported to: ({randomX}, {randomY})");
@@ -120,6 +113,8 @@ public class BallController : MonoBehaviour
                 ResetBall();
             }
         }
+
+       
     }
 
     private void ResetBall()

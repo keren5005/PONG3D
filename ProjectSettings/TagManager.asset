@@ -13,6 +13,8 @@ TagManager:
   - 'Capsule '
   - LeftWall
   - RightWall
+  - BottomWall
+  - TopWall
   layers:
   - Default
   - TransparentFX
