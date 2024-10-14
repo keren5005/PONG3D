@@ -23,3 +23,6 @@
 *.mdb
 *.tmp
 *.log
+
+# Do not ignore README.md
+!README.md
