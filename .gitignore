@@ -1,0 +1,29 @@
+# Ignore temporary files and directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Pp]ackages/
+[Ss]olution/
+[Aa]ssets/Plugins/Editor/
+
+# Ignore Visual Studio files
+.vs/
+.vsconfig
+*.sln
+*.csproj
+*.user
+*.pidb
+*.suo
+*.userprefs
+
+# Ignore other unnecessary files
+*.pdb
+*.mdb
+*.opendb
+*.tmp
+*.log
+
