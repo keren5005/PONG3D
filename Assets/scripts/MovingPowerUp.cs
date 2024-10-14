@@ -9,16 +9,15 @@ public class MovingPowerUp : MonoBehaviour
 
     void Start()
     {
-        // Store the starting position of the capsule
+       
         startPosition = transform.position;
     }
 
     void Update()
     {
-        // Calculate the new position using a sinusoidal pattern for smooth movement
         float newY = startPosition.y + Mathf.Sin(Time.time * moveSpeed) * moveRange;
 
-        // Apply the new Y position while keeping the X and Z positions the same
+        
         transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 }

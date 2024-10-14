@@ -7,18 +7,14 @@ public class TeleportationPowerUp : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Ensure the object that collided is the ball
         if (collision.gameObject.CompareTag("Ball"))
         {
-            // Get the ball's BallController script
             BallController ball = collision.gameObject.GetComponent<BallController>();
             if (ball != null)
             {
-                // Teleport the ball to a random location within the range
                 ball.TeleportBall(teleportRangeX, teleportRangeY);
             }
 
-            // Destroy the power-up after collection
             Destroy(gameObject);
         }
     }
