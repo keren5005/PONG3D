@@ -1,28 +1,20 @@
-# Ignore Unity generated folders
+# Unity specific
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
-[Bb]uilds/
 [Ll]ogs/
-[Pp]ackages/
-[Uu]serSettings/
+[Uu]ser[Ss]ettings/
 
-# Ignore Visual Studio files
-.vs/
-.vsconfig
-*.sln
+# Visual Studio specific
 *.csproj
-*.user
-*.pidb
-*.suo
-*.userprefs
-
-# Ignore other unnecessary files
-*.pdb
-*.mdb
-*.tmp
-*.log
+*.sln
+.vsconfig
+.vs/
 
 # Do not ignore README.md
 !README.md
+
+# Crash logs
+.crash/
+
